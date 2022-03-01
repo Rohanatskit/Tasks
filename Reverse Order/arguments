@@ -1,0 +1,17 @@
+#!/bin/bash
+echo -n "Name:$1";
+read Name
+echo -n "Designation:$2";
+read Designation
+echo -n "Emplyee_ID:$3";
+read Emplyee ID
+echo -n "Company_Name:$4";
+read Company Name
+echo -n "Joining_Month:$5";
+read Joining Month
+
+
+echo "Name:$1"
+echo "Designation:$2"
+echo "Emplyee_ID:$3"
+echo "Comapany_Name:$4"
