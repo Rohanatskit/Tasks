@@ -10,13 +10,4 @@ read Company_Name
 echo -n "Joining_Month:$5";
 read Joining_Month
 echo ""
-echo ""
-echo "Name:$Name"
-echo ""
-echo "Designation:$Designation"
-echo ""
-echo "Emplyee_ID:$Emplyee_ID"
-echo ""
-echo "Comapany_Name:$Company_Name"
-echo ""
-echo "Joining_Month:$Joining_Month"
+printf "%s\n" "Name: $Name" "Designation:$Designation" "Emplyee_ID: $Emplyee_ID" "Company_Name: $Company_Name" "Joining_Month: $Joining_Month" | tac
