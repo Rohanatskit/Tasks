@@ -50,7 +50,7 @@ sudo cat /etc/hostname
 echo ""
 echo -e "\x1B[1;92mNetworking Bandwidth\e[0m"
 echo ""
-sudo yum install dstat -yq
+sudo yum install dstat -q -y
 sudo dstat -nt | head -n 20
 echo ""
 echo -e "\x1B[1;92mNetwork OS\e[0m"
