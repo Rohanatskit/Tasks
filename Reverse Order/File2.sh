@@ -1,5 +1,6 @@
 #!/bin/bash
 echo -n "Name:$1";
+#We can even give the arguments after sh File2.sh commands or We can use read
 read Name
 echo -n "Designation:$2";
 read Designation
