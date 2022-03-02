@@ -20,8 +20,3 @@ echo ""
 echo "Comapany_Name:$Company_Name"
 echo ""
 echo "Joining_Month:$Joining_Month"
-
-#echo "Name:$1"
-#echo "Designation:$2"
-#echo "Emplyee_ID:$3"
-#echo "Comapany_Name:$4"
