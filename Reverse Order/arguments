@@ -4,14 +4,24 @@ read Name
 echo -n "Designation:$2";
 read Designation
 echo -n "Emplyee_ID:$3";
-read Emplyee ID
+read Emplyee_ID
 echo -n "Company_Name:$4";
-read Company Name
+read Company_Name
 echo -n "Joining_Month:$5";
-read Joining Month
+read Joining_Month
+echo ""
+echo ""
+echo "Name:$Name"
+echo ""
+echo "Designation:$Designation"
+echo ""
+echo "Emplyee_ID:$Emplyee_ID"
+echo ""
+echo "Comapany_Name:$Company_Name"
+echo ""
+echo "Joining_Month:$Joining_Month"
 
-
-echo "Name:$1"
-echo "Designation:$2"
-echo "Emplyee_ID:$3"
-echo "Comapany_Name:$4"
+#echo "Name:$1"
+#echo "Designation:$2"
+#echo "Emplyee_ID:$3"
+#echo "Comapany_Name:$4"
