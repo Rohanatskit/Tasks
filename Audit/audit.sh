@@ -76,3 +76,4 @@ echo ""
 echo -e "\x1B[1;92mPassword Info\e[0m"
 echo ""
 sudo chage -l $USER
+echo ""
