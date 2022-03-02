@@ -13,4 +13,4 @@ Product=$(($Ax$B))
 echo "Product: $Product"
 
 Quotient=$(($A/$B)) 
-echo "Quotient is $Quotient"
+echo "Quotient: $Quotient"
