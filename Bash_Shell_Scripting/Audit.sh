@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo ""
 echo -e "\x1B[4;1;96mAudit Script Output\e[0m"
 echo ""
