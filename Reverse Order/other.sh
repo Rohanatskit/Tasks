@@ -14,3 +14,4 @@
 #read Joining_Month
 #echo ""
 printf "%s\n" "Name: $1" "Designation: $2" "Emplyee_ID: $3" "Company_Name: $4" "Joining_Month: $5" | tac
+#If you don't want limited number of Arguments to be printed you just put "$@" instead of "$1" "$2"
