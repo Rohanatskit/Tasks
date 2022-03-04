@@ -1,0 +1,8 @@
+version: "3"
+services:
+  my-audit-service:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - /dev:/var/www/html/
